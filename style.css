@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#0c0236;
+    
+}
+.Logo1 {
+    width: 120px;
+    margin: 1px;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(3, 2, 19);
+}
+main{
+    flex-grow: 1;
+}
+header{
+    
+    background-image: url(./img/carro2.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    position: relative;
+    margin: 0 auto;
+    
+}
+.caixa2 {
+    width: 120px;
+    padding: 10px 20px;
+    background: #0e062b;
+    color: #a8a2be;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 1px rgb(28, 12, 56);
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.caixa2:hover {
+    background: #6b6580;
+}
+
+.menu li{
+    padding-right: 120px;
+    list-style: none;  
+}
+.img-carro{
+    display: flex;
+    justify-content: center;
+}
+.img-carro img{
+    width: 60%;
+    height: 400px;
+}
+.descricao{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.descricao p{
+    width: 56%;
+    color: rgb(94, 90, 112);
+}
+.painel{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(94, 90, 112);
+}
+.painel p{
+    width: 400px;
+    color: rgb(94, 90, 112);
+}
+.painel img{
+    width: 360px;
+    margin-right: 20px;
+}
+.motor{
+    margin-top: 20px;
+}
+.video{
+
+    margin: 2em auto; 
+    display: flex;
+    justify-content: center;
+    
+}
+.video2{
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 0;
+    
+}  
+footer{
+    background-color: #0e062b;
+    border-radius: 5px;
+}
+footer ul{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 0;
+}
